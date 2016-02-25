@@ -3,6 +3,68 @@
 	##Requirements:
 		#The user class should initialize with an email, password and birthdate
 
+class User_1
+	def initialize(name, gender, age)
+		@name = name
+		@gender = gender
+		@age = age
+		@location = location
+		@email = email
+		@password = password
+	end
+
+	def name_user(name)
+		@name = name
+	end
+
+	def user_name
+		return @name
+	end
+
+	def gender(gender)
+		@gender = gender
+	end
+
+	def user_gender
+		return @gender
+	end
+
+	def age(age)
+		return @age = age
+	end
+
+	def user_age
+		return @age
+	end
+
+	def location(location)
+		@location = location
+	end
+
+	def user_location
+		return @location
+	end
+
+	def email(email)
+		@email = email
+	end
+
+	def user_email
+		return @email
+	end
+
+	def password(password)
+		@password = password
+	end
+
+	def user_password
+		return @password
+	end
+end
+
+lchandra = User.new("name", "gender", "age")
+lchandra.age(17)
+
 		#The user class should have reader & writer methods for:
 			#Name
 			#Location
